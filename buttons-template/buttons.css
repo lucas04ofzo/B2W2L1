@@ -1,0 +1,21 @@
+.container{
+	width: 600px;
+	height: 600px;
+	border: 5px solid black;
+	margin: 0 auto;
+}
+#button1{
+	width: 125px;
+	height: 100px;
+	margin: 25px;
+}
+#button2{
+	width: 125px;
+	height: 100px;
+	margin: 25px;
+}
+#button3{
+	width: 125px;
+	height: 100px;
+	margin: 25px;
+}
