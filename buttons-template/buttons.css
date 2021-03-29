@@ -1,21 +1,40 @@
 .container{
 	width: 600px;
 	height: 600px;
-	border: 5px solid black;
+	border: 5px solid #808080;
 	margin: 0 auto;
+	background-image: url(images/bg0.jpg);
 }
 #button1{
-	width: 125px;
-	height: 100px;
-	margin: 25px;
+	width: 75px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #4caf50;
+	color: white;
+	border: 1px solid #9ccf9d;
 }
 #button2{
-	width: 125px;
-	height: 100px;
-	margin: 25px;
+	width: 75px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: #4caf50;
+	color: white;
+	border: 1px solid #9ccf9d;
 }
 #button3{
-	width: 125px;
-	height: 100px;
-	margin: 25px;
+	width: 75px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: #4caf50;
+	color: white;
+	border: 1px solid #9ccf9d;
+}
+img{
+	position: relative;
+	float: right;
+	top: 440px;
+	overflow: hidden;
 }
