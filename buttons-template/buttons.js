@@ -1,10 +1,18 @@
 function onbutton1clicked(){
-	var text1 = 0
-	document.getElementById("button1").value = text1
+	var number = 0;
+	number++;
+	var get = document.getElementById("button1");
+	get.innerHTML = number;
 }
 function onbutton2clicked(){
-	var text2 = document.getElementById("button2");
+	var number = 0;
+	number++;
+	var get = document.getElementById("button2");
+	get.innerHTML = number;
 }
 function onbutton3clicked(){
-	var text3 = document.getElementById("button3");
+	var number = 0;
+	number++;
+	var get = document.getElementById("button3");
+	get.innerHTML = number;
 }
