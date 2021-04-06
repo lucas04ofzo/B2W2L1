@@ -1,11 +1,7 @@
-function buttonCounter(imgS,imgL,pId,buttonId){
+function buttonCounter(imgS, imgL, pId, buttonId){
 	document.getElementById("image").src = imgS;
 	document.getElementById("container").style.backgroundImage = imgL;
-	var remove = document.getElementById(pId);
-	remove.remove();
-	var count = document.createElement("p");
-	count.innerHTML = 1;
-	document.getElementById(buttonId).appendChild(count);
+	document.getElementById(pId).innerHTML = 1;
 }
 function buttonClicked(button){
 	var get = document.getElementById(button);
